@@ -1,0 +1,129 @@
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header{
+    font-weight: 600;
+    size: 14px;
+    line-height: normal;
+    color:#17233D;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    width: 47px;
+    cursor: pointer;
+}
+
+.button-header{
+    font-weight: 500px;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background-color:  #4cb538;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.img-logo{
+   margin: 163px 0 0 123px;
+   display: inline-block;
+}
+
+div{
+    display: inline-block;
+    margin-left: 85px;
+  width: 493px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161a49;
+    letter-spacing: 0.596154px;
+   
+}
+
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4b505a;
+    letter-spacing: 0.5px;
+    width: 493px;
+}
+
+.link-main{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px){
+    
+   .link-header {
+    display: none;
+   }
+   
+    .button-header{
+        margin-left: 200px; 
+    }
+
+    main{
+       text-align: center;
+    }
+
+    aside {
+        display: block;
+        margin: -350px auto;
+    }
+
+    h1{
+    
+        font-size: 30px;
+        line-height: 30px; 
+        letter-spacing: 0.596px;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 18px;
+        line-height: 33px; /* 183.333% */
+        width: 304px;
+        margin: 15px auto;
+        text-align: center;
+     }
+
+     .link-main{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+     }
+
+     img{
+        width: 312px;
+        height: 288px;
+        position: relative;
+        top: 290px;
+        display: block;
+        margin: auto;
+     }
+}
